@@ -3,12 +3,104 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
+  <title>Belajar HTML Part 1</title>
   <link href='/style.css' rel='stylesheet'>
+  <style>
+    h1{color:aquamarine;text-shadow: 3px 6px 12px black;}
+    h2{color:rebeccapurple;text-shadow: 2px 5px 10px black;}
+    h3{color:blueviolet;text-shadow: 6px 5px 15px black;}
+    h4{color:peru;text-shadow: 8px 10px 18px black;}
+    h5{color:brown;text-shadow: 9px 10px 20px blue;}
+    h6{color:red;text-shadow: 7px 9px 11px blue;}
+    p{font-size: 15px;color:blue;text-shadow: 3px 10px 13px rgb(48, 30, 30);}
+    body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color: blueviolet;font-style: oblique;text-shadow: 3px 6px 8px;
+    color:azure;
+    padding:10px 21px 10px 21px;
+    border: none;
+    border-radius: 100px 0;
+    font-size: 28px;
+}
+table{
+  width: 100%;
+}
+table, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th:{
+  text-align: center;
+}
+tr:hover{
+  background-color: blanchedalmond;
+}
+  </style>  
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Jangan Sentuh Aku</button>
+  <h1>Hello Friend</h1>
+  <h2>Nama Saya Gdy</h2>
+  <h3>Dari Fakultas Teknik Informatika</h3>
+  <h4>Jurusan TI-KAb</h4>
+  <h5>Kelas K</h5>
+  <h6>Angkatan 2024</h6>
+  <button onclick="console.log('aaaauuuuu');">Jangan Sentuh Aku</button>
+
+  <p>
+    <b><i><u>Suatu hari saya terbangun dengan sangat semangat dan sangat loyo <br>
+      karena saya ganteng, keren, dan eaaa. <br>
+     Saya adalah anak gembala selalu riang serta gembira. <br>
+     Karena saya rajin bertanya selalu sehat serta salto.</b></i></u><br>
+     <b>O<sub>2</sub>. H<sub>2</sub>O</b><br>
+     <b>Dengan luas daratan 500km<sup>2</sup></b>
+  </p>
+  <p>
+    <b><i>  Saat sedang menggali sumur, saya menceburkan Rama kedalamnya<br>
+    eaaaa.</i></b>
+  </p>
+  <h7>List Total Modif</h7>
+  <ul style="color:rgb(6, 95, 65);text-shadow: 3px 5px 6px black;">
+    <li>Master rem RCB E2 + handle RCB = Rp 1.150.000</li>
+    <li>Part Karbon = Rp 1.200.000</li>
+  </ul>
+  <hr>
+  <ol 
+  style="color:blueviolet;text-shadow: 6px 8px 9px black;list-style: upper-alpha;">
+    <li>Kirian Spectro = Rp 600.000</li>
+    <li>Baut Titanium = Rp 770.000</li>
+  </ol>
+  <hr>
+  <p>
+    <h3>Tabel Harga</h3>
+    <table>
+      <thead>
+      <tr>
+        <th>Nomor</th>
+        <th>Item Barang</th>
+        <th>Harga Satuan</th>
+      </tr>
+      </thead>
+    <tbody>
+      <tr>
+        <td>1.</td>
+        <td>Baut Titanium</td>
+        <td>30.000</td>
+      </tr>
+      <tr>
+        <td>2.</td>
+        <td>Master rem RCB</td>
+        <td>820.000</td>
+      </tr>
+      <tr>
+        <td>3.</td>
+        <td>Handle RCB</td>
+        <td>330.000</td>
+      </tr>
+    </tbody>
+    </table>
+  </p>
   <script defer type="text/javascript" src="/main.js"></script>
 </body>
 </html>
