@@ -40,6 +40,31 @@ tr:hover{
   </style>  
 </head>
 <body>
+  <style>
+    label{font-size: 20px;font-weight: bold;color:blue;text-shadow: 5px 4px 10px black;}
+    input[type=text],input[type=number],input[type=date],input[type=time],input[type=password]{
+      width: 100%;
+      padding: 12px 20px;
+      border-radius: 15px;
+      margin: 8px 0;
+      color:rgb(45, 10, 78);
+      font-size: 20px;
+      background-color:rgb(209, 218, 218);
+    }
+    select{
+      widht:100%;
+      padding: 12px 20px;
+      border-radius: 15px;
+      margin: 8px 0;
+      color:rgb(44, 12, 75);
+      font-size: 20px;
+      background-color:rgb(209, 218, 218);
+    }
+    input[type=checkbox],input[type=radio]{
+      outline: 1px solid #c0C0C0;
+    }
+  </style>
+
   <h1>Hello Friend</h1>
   <h2>Nama Saya Gdy</h2>
   <h3>Dari Fakultas Teknik Informatika</h3>
@@ -102,5 +127,43 @@ tr:hover{
     </table>
   </p>
   <script defer type="text/javascript" src="/main.js"></script>
+  <form>
+    <label>Form-text</label>
+      <input 
+      type="text" name="txalamat" value="isikan alamat" class="txalamat">
+    <label>Form Number</label>
+      <input type="number">
+    <label>Form TGL</label>
+     <input type="date">
+    <label>Form Waktu</label>
+      <input type="time">
+    <label>Form Pilihan</label>
+    <br>
+    <br>
+      <label>Jenis Kelamin : </label>
+      <input type="radio" name="jnsk">Laki-laki
+      <input type="radio" name="jnsk">Perempuan
+      <br>
+      <br>
+      <label>Hobi : </label>
+      <input type="checkbox">Sepak Bola
+      <input type="checkbox">Silat
+      <input type="checkbox">Tinju
+      <input type="checkbox">Drama
+      <br>
+      <br>
+    <label>Form Pilihan</label>
+    <br>
+       <select>
+        <option disabled selected>Silahkan PIlih Warna</option>
+        <option>Merah</option>
+        <option>Putih</option>
+        <option>Biru</option>
+       </select>
+       <br>
+       <label>Form Password</label>
+        <input type="password" name="txPASS">
+       <input type="Submit" value="Submit">
+  </form>
 </body>
 </html>
